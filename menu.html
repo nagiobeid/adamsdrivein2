@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+    Adams Drive-In:
+    </title>
+        <style>
+            .menuimg
+            {
+                padding: 5px;
+                width: 100%;
+                height: auto;
+            }
+            .bottom
+            {
+                margin-top: 15px;
+            }
+            #website
+            {
+                color: white;
+            }
+            hr
+            {
+                width: 80%;
+            }
+            .mainpagebottom
+            {
+                text-align: center;
+                color: white;
+                background-color: #2f3030;
+                height: 200px;
+            }
+            .btndiv
+            {
+                text-align: center;
+            }
+            .mainpagebtn
+            {
+                height: 30px;
+                border-radius: 10px;
+                border-color: pink;
+                color: white;
+                background-color: red;
+            }
+            
+            .mainpageimgs
+            {
+                position: relative;
+                width: 65%;
+                height: auto;
+            }
+            .mainpagediv
+            {
+                text-align: center;
+                width: 100%;
+            }
+        	#headh2
+        	{
+        		font-weight: 900;
+        		font-size: 35px;
+        		font-family: Brush Script MT, Brush Script Std, cursive;
+        		/*position: absolute;*/
+        		margin-left: 10px;
+        	}
+        	#headp
+        	{
+                color: maroon;
+        		font-family: fantasy;
+        		margin-left: 10px;
+        		/*position: absolute;*/
+        	}
+        	#headimg
+        	{
+        		opacity: 0.5;
+        		width: 100%;
+        		height: 30%;
+        	}
+        	#logo
+        	{
+        		margin-top: 2px;
+        		margin-left: 5px;
+        	}
+        	#callbtnp
+        	{
+        		margin-bottom: 0px !important;
+        		margin-left: 10px !important;
+        	}
+        	
+            #footer
+            {
+                color: white;
+                width: 100%;
+                background-color: red;
+                position:fixed;
+                bottom:0;
+                left:0;
+            }  
+            #head
+            {
+            	/*position: relative;*/
+                text-align: center;
+            	background-color: white;
+            	width: 100%;
+            	margin-left: 0px;
+            	margin-right: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            #navbar
+            {
+                margin-bottom: 0px;
+            }
+            #callbtn
+            {
+                background-color: maroon;
+                border-color: grey;
+                margin-bottom: 0px;
+            }
+            .mainpagebtn:hover{background: pink;}
+            .mainpagebtn:active{background: maroon; border-color: black;}
+            #p1:active{background: grey}
+            #p2:active{background: grey}
+            #p3:active{background: grey}
+            #p4:active{background: grey}
+        </style>
+    <!-- latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+
+<!--NAVBAR-->
+             <nav id="navbar" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--<a class="navbar-brand" href="#">Adams Drive-In</a>-->
+              <img id="logo" src="ADAMS.png" height="45px" width="45px" alt="logo">
+              
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li id="p1"><a href="index.html">Home</a></li>
+                <li id="p2"><a href="menu.html">Menu</a></li>
+                <li id="p3"><a href="contactus.html">Contact Us</a></li>
+                <li id="p4"><a href="aboutus.html">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav> 
+<!--MENU DIV-->
+    <div id="menu1div" class="menudiv">
+        <!--<p id="burgersp" class="mainpageimgsdesc">Burgers</p>-->
+        <img id="screen1" class="menuimg" src="screen1.png" alt="COMBOS">
+    </div>
+
+    <div id="menu2div" class="menudiv">
+        <!--<p id="burgersp" class="mainpageimgsdesc">Burgers</p>-->
+        <img id="screen2" class="menuimg" src="screen2.png" alt="MENU2">
+    </div>
+
+    <div class="mainpagebottom">
+        <img class="bottom" id="FB" src="FB.png" height="45px" width="45px" alt="logo">
+        <p id="facebook" class="bottomtxt">adamsdrivein</p>
+        <img class="bottom" id="IG" src="IG.png" height="45px" width="45px" alt="logo">
+        <p id="instagram" class="bottomtxt">@adamsdrivein</p>
+    </div>
+
+
+
+<!-- Footer -->
+        <footer class="page-footer font-small blue">
+            <div id="footer" class="footer-copyright text-center py-3">© 2018 Adams Drive-In :
+                <a id="website" href="https://mdbootstrap.com/education/bootstrap/"> Adamsdrivein.com</a>
+            </div>
+        </footer>
+    </body>
+</html>
